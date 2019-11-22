@@ -5,19 +5,19 @@ using R5T.Guide;
 
 namespace R5T.Corcyra
 {
-    public class GeographyIdentity : TypedGuid
+    public class CatchmentIdentity : TypedGuid
     {
         #region Static
 
-        public static GeographyIdentity New()
+        public static CatchmentIdentity New()
         {
-            var geographyIdentity = new GeographyIdentity();
+            var geographyIdentity = new CatchmentIdentity();
             return geographyIdentity;
         }
 
-        public static GeographyIdentity From(Guid value)
+        public static CatchmentIdentity From(Guid value)
         {
-            var geographyIdentity = new GeographyIdentity(value);
+            var geographyIdentity = new CatchmentIdentity(value);
             return geographyIdentity;
         }
 
@@ -25,12 +25,12 @@ namespace R5T.Corcyra
 
 
 
-        public GeographyIdentity(Guid value)
+        public CatchmentIdentity(Guid value)
             : base(value)
         {
         }
 
-        public GeographyIdentity()
+        public CatchmentIdentity()
             : this(Guid.NewGuid())
         {
         }
