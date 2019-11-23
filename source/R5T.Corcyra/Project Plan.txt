@@ -1,4 +1,4 @@
-R5T.Corcyra - A locations types (LngLat, Catchment, etc.) library.
+R5T.Corcyra - A locations types (LngLat, Location, Catchment, etc.) library.
 
 Goals
 
